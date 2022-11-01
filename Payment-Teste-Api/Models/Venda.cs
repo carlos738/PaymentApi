@@ -12,7 +12,7 @@ namespace Payment_Teste_Api.Models
         public  Vendedor vendedor{ get; set; }
         public DateTime Data { get; set; }
         public List<Item> ListaItens { get; set; }
-        public EnumStatusVenda statusVenda { get; set; }
+        public EnumStatusVenda StatusVenda { get; set; }
         
     }
 }
